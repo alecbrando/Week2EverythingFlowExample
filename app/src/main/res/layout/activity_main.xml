@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="24dp"
+    tools:context=".ui.MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_count_live"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Count down (livedata)"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="168dp" />
+
+    <Button
+        android:id="@+id/btn_count_state_flow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Count down (StateFlow)"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="299dp" />
+
+    <Button
+        android:id="@+id/btn_inc_live_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Increment (Livedata)"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="448dp" />
+
+    <Button
+        android:id="@+id/btn_inc_state_flow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Increment (StateFlow)"
+        android:padding="20dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="579dp" />
+</LinearLayout>
