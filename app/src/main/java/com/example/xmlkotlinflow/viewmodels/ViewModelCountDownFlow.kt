@@ -58,9 +58,11 @@ class ViewModelCountDownFlow : ViewModel() {
 // count -> returns number that fits expression
 // reduce -> (accum, value) which allows you to return a sum each iteration
 // fold -> same as reduce but has an initial value
+// map -> map over data and manipulate it
+// filter -> allows you to filter over the data and set conditions
 
 
-//Coroutine
+// Coroutine
 //launch { // context of the parent, main runBlocking coroutine
 //    println("main runBlocking      : I'm working in thread ${Thread.currentThread().name}")
 //}
